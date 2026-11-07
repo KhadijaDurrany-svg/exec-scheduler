@@ -1,0 +1,109 @@
+{
+  "comparison": {
+    "paired_permutation_p": 9.999000099990002e-05,
+    "slotfit_vs": "priority",
+    "utility_delta": 0.12960547045289827
+  },
+  "config": {
+    "generator": {
+      "dep_prob": 0.22,
+      "duration_choices": [
+        30,
+        45,
+        60,
+        90,
+        120
+      ],
+      "load": 1.45,
+      "meeting_len_choices": [
+        30,
+        45,
+        60
+      ],
+      "meetings_per_day": 2,
+      "n_days": 3,
+      "n_tasks": 24,
+      "tight_frac": 0.45,
+      "weight_choices": [
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        8.0
+      ],
+      "work_len": 480,
+      "work_start": 540
+    },
+    "iters": 400,
+    "n_instances": 200,
+    "seed": 7
+  },
+  "dataset_checksum": "29a0f18e6b346fca24e53c75ec6a16b3c6a7039256e6dea45eb741fb760f586d",
+  "methods": {
+    "edf": {
+      "hit_rate_ci": [
+        0.3510416666666667,
+        0.3822916666666667
+      ],
+      "hit_rate_mean": 0.36666666666666664,
+      "method": "edf",
+      "utility_ci": [
+        0.34233156730262,
+        0.3784908223244153
+      ],
+      "utility_mean": 0.3602750022163282
+    },
+    "fifo": {
+      "hit_rate_ci": [
+        0.3791666666666667,
+        0.40395833333333336
+      ],
+      "hit_rate_mean": 0.3914583333333333,
+      "method": "fifo",
+      "utility_ci": [
+        0.37561817836297323,
+        0.4068545774232944
+      ],
+      "utility_mean": 0.3910834687201703
+    },
+    "priority": {
+      "hit_rate_ci": [
+        0.3997916666666667,
+        0.42166666666666663
+      ],
+      "hit_rate_mean": 0.410625,
+      "method": "priority",
+      "utility_ci": [
+        0.5726315779339909,
+        0.5976919492345637
+      ],
+      "utility_mean": 0.5850355816699913
+    },
+    "random": {
+      "hit_rate_ci": [
+        0.39083333333333337,
+        0.41104166666666664
+      ],
+      "hit_rate_mean": 0.40083333333333343,
+      "method": "random",
+      "utility_ci": [
+        0.38826096070140126,
+        0.41591261772763044
+      ],
+      "utility_mean": 0.4021212268350935
+    },
+    "slotfit": {
+      "hit_rate_ci": [
+        0.635625,
+        0.6575
+      ],
+      "hit_rate_mean": 0.6466666666666666,
+      "method": "slotfit",
+      "utility_ci": [
+        0.7025738896574266,
+        0.7266647481265729
+      ],
+      "utility_mean": 0.7146410521228895
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "tasks": [
+    {
+      "id": "t0",
+      "name": "task 0",
+      "duration": 60,
+      "deadline": 2392,
+      "weight": 1.0,
+      "deps": []
+    },
+    {
+      "id": "t1",
+      "name": "task 1",
+      "duration": 120,
+      "deadline": 1058,
+      "weight": 3.0,
+      "deps": []
+    },
+    {
+      "id": "t2",
+      "name": "task 2",
+      "duration": 90,
+      "deadline": 980,
+      "weight": 1.0,
+      "deps": []
+    },
+    {
+      "id": "t3",
+      "name": "task 3",
+      "duration": 90,
+      "deadline": 2182,
+      "weight": 2.0,
+      "deps": []
+    },
+    {
+      "id": "t4",
+      "name": "task 4",
+      "duration": 90,
+      "deadline": 2460,
+      "weight": 1.0,
+      "deps": []
+    },
+    {
+      "id": "t5",
+      "name": "task 5",
+      "duration": 90,
+      "deadline": 1621,
+      "weight": 5.0,
+      "deps": [
+        "t0",
+        "t3"
+      ]
+    },
+    {
+      "id": "t6",
+      "name": "task 6",
+      "duration": 60,
+      "deadline": 2460,
+      "weight": 8.0,
+      "deps": []
+    },
+    {
+      "id": "t7",
+      "name": "task 7",
+      "duration": 30,
+      "deadline": 1897,
+      "weight": 8.0,
+      "deps": [
+        "t0"
+      ]
+    },
+    {
+      "id": "t8",
+      "name": "task 8",
+      "duration": 120,
+      "deadline": 1534,
+      "weight": 5.0,
+      "deps": []
+    },
+    {
+      "id": "t9",
+      "name": "task 9",
+      "duration": 60,
+      "deadline": 2260,
+      "weight": 8.0,
+      "deps": []
+    },
+    {
+      "id": "t10",
+      "name": "task 10",
+      "duration": 60,
+      "deadline": 2123,
+      "weight": 1.0,
+      "deps": []
+    },
+    {
+      "id": "t11",
+      "name": "task 11",
+      "duration": 45,
+      "deadline": 1545,
+      "weight": 8.0,
+      "deps": []
+    }
+  ],
+  "meetings": [
+    {
+      "id": "m0",
+      "name": "meeting 0",
+      "start": 570,
+      "end": 615
+    },
+    {
+      "id": "m1",
+      "name": "meeting 1",
+      "start": 840,
+      "end": 885
+    },
+    {
+      "id": "m2",
+      "name": "meeting 2",
+      "start": 2010,
+      "end": 2040
+    },
+    {
+      "id": "m3",
+      "name": "meeting 3",
+      "start": 2280,
+      "end": 2310
+    }
+  ],
+  "work_windows": [
+    [
+      540,
+      1020
+    ],
+    [
+      1980,
+      2460
+    ]
+  ]
+}
